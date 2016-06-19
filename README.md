@@ -15,3 +15,18 @@ Removed some code such as:
 * Useless controllers
 * Support for i18n
 * activator
+
+=== Getting Started ===
+
+To run this demo using activator:
+
+ 1. `git clone` this repository
+ 2. Update the MySQL server url, username and password in `conf/application.conf`
+ 3. Create a `playScalaSlickExample` database on your MySQL server.
+
+    CREATE DATABASE playScalaSlickExample;
+
+ 4. Launch the demo using `activator ~run`
+ 5. Open the Play web server at http://localhost:9000
+ 6. You should be prompted to apply the evolution script. Apply the script.
+ 7. You should now see the app running.
